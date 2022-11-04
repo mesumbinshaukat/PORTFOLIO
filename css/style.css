@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+
+*{
+    font-family: 'Xanh Mono', monospace;
+}
+
+
+.heading p{
+    color: grey;
+}
+
+.heading p:hover{
+    color: black;
+}   
+
+img{
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+footer img{
+    width: 40px;
+    border: none;
+
+}
+
+footer{
+    letter-spacing: 3px;
+    
+}
+
+footer p{
+font-family: 'EB Garamond', serif; 
+}
+
+#portfolio-details{
+    display:blocks;
+    border: 1px solid black;
+    box-shadow: 20px 15px 5px 2px gray;
+    
+}
+#portfolio-skills{
+    display:none;
+    border: 1px solid black;
+    box-shadow: 20px 15px 5px 2px gray;
+
+}
+
+
+#portfolio-more-details{
+    display: none;
+    border: 1px solid black;
+    box-shadow: 20px 15px 5px 2px gray;
+}
+
+.progress {
+    border: 1px solid black;
+}
+
