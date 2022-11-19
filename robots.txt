@@ -1,2 +1,5 @@
 User-agent: *
 Disallow: /
+
+User-agent: *
+Disallow: /googlefc618d385fff3e91.html/
