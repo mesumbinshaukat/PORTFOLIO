@@ -1,3 +1,7 @@
+// JAVASCRIPT CODE FOR INDEX.HTML
+
+
+// BUTTON FOR PORTFOLIO
 btnPortfolio = () => {
     var showPortfolio = document.getElementById("portfolio-details")
     var hideSkills = document.getElementById("portfolio-skills")
@@ -7,6 +11,9 @@ btnPortfolio = () => {
     hideSkills.style.display = "none"
     hideMoreDetails.style.display = "none"
 }
+
+
+// BUTTON FOR SKILLS
 btnSkills = () => {
     var showPortfolio = document.getElementById("portfolio-details")
     var hideSkills = document.getElementById("portfolio-skills")
@@ -17,6 +24,7 @@ btnSkills = () => {
     hideMoreDetails.style.display = "none"
 }
 
+// BUTTON FOR MORE DETAILS
 btnPersonalDetails = () => {
     var showPortfolio = document.getElementById("portfolio-details")
     var hideSkills = document.getElementById("portfolio-skills")
@@ -26,3 +34,5 @@ btnPersonalDetails = () => {
     hideSkills.style.display = "none"
     hideMoreDetails.style.display = "block"
 }
+
+// END OF THIS PAGE
