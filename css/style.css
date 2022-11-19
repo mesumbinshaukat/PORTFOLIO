@@ -1,3 +1,7 @@
+/* CSS TO STYLE PORTFOLIO  */
+
+
+/* FONTS IMPORT LINK */
 @import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
 
@@ -6,18 +10,30 @@
 }
 
 
-.heading p{
+.heading h1{
     color: grey;
 }
 
-.heading p:hover{
+.heading h1:hover{
     color: black;
 }   
 
-img{
+ img{
     width: 50%;
     border: 1px solid black;
     border-radius: 100%;
+    
+
+}
+
+#my_Pic{
+    box-shadow: 1px -1px 30px 5px grey;
+}
+
+#my_Pic:hover{
+    
+    box-shadow: 1px -1px 30px 5px black;
+
 }
 
 footer img{
@@ -25,11 +41,38 @@ footer img{
     border: none;
 
 }
+.footer{
+    font-size: large;
+    bottom: 0%;
+    width: 100%;
+    font-family: 'EB Garamond', serif; 
+    position: static;
+    margin-top: auto;
+}
+
+.footer_redirect{
+    color: white;
+    /* font-size: x-large; */
+     font-weight: lighter;
+    font-family: 'EB Garamond', serif; 
+
+}
+
+
+
+#footer_redirect:hover{
+    color: black;
+    font-family: 'Xanh Mono', monospace;
+    font-family: 'EB Garamond', serif; 
+}
+
 
 footer{
-    letter-spacing: 3px;
-    
+    font-weight: bolder;
+    font-size: x-large;
+    letter-spacing: 1px;
 }
+
 
 footer p{
 font-family: 'EB Garamond', serif; 
@@ -59,3 +102,4 @@ font-family: 'EB Garamond', serif;
     border: 1px solid black;
 }
 
+/* END OF THIS PAGE */
