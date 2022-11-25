@@ -102,4 +102,14 @@ font-family: 'EB Garamond', serif;
     border: 1px solid black;
 }
 
+.fiverr_badge{
+    border: 1px solid black;
+    border-radius: 15px;
+    transition: transform .3s;
+}
+
+.fiverr_badge:hover{
+    transform: scale(1.1);
+}
+
 /* END OF THIS PAGE */
